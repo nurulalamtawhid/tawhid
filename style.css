@@ -6,6 +6,7 @@ body{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 120px;
 }
 h1{
     font-size: 50px;
@@ -23,11 +24,49 @@ h1{
 }
 .text{
     margin: 20px 30px;
-    padding: 10px 20px;
+    padding: 10px 40px;
     width: 50%;
 }
 .image{
     width: 80%;
-    
 
+
+}
+.dream{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.exper{
+    margin-left: 1px;
+    margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-image: cross-fade(20);
+}
+.devloper{
+    display: flex;
+}
+.full{
+    border-left: 8px solid tomato;
+     /**border-radius: 20px;**/
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    box-shadow: 5px 7px 40px grey;
+    width: 35%;
+}
+.baby{
+    border-left: 8px solid rgb(3, 2, 77);
+     /**border-radius: 20px;**/
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-left: 8%;
+    padding: 10px 20px;
+    box-shadow: 5px 7px 40px grey;
+    width: 40%;
 }
